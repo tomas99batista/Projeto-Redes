@@ -5,3 +5,13 @@ Jan 18 23:05:08.209 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tomas\
 Jan 18 23:05:08.209 GENERAL: working_dir=C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips
 Jan 18 23:05:08.210 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-5 
 Jan 18 23:10:49.424 HYPERVISOR: exec_cmd: ethsw rename Ethernetswitch-5 Research 
+Jan 18 23:33:57.857 HYPERVISOR: exec_cmd: nio create_udp udp-58cfe360-e0fc-4e64-a5d2-e8c3a3fabee2 10043 192.168.1.72 10042 
+Jan 18 23:33:57.857 HYPERVISOR: exec_cmd: ethsw add_nio Research udp-58cfe360-e0fc-4e64-a5d2-e8c3a3fabee2 
+Jan 18 23:33:57.870 HYPERVISOR: exec_cmd: ethsw set_access_port Research udp-58cfe360-e0fc-4e64-a5d2-e8c3a3fabee2 1 
+Jan 18 23:34:32.362 HYPERVISOR: exec_cmd: ethsw set_access_port Research udp-58cfe360-e0fc-4e64-a5d2-e8c3a3fabee2 1 
+Jan 18 23:34:50.718 HYPERVISOR: exec_cmd: nio create_udp udp-093688d8-502f-4f48-bda6-654939f5f6b9 10051 192.168.1.72 10050 
+Jan 18 23:34:50.719 HYPERVISOR: exec_cmd: ethsw add_nio Research udp-093688d8-502f-4f48-bda6-654939f5f6b9 
+Jan 18 23:34:50.731 HYPERVISOR: exec_cmd: ethsw set_access_port Research udp-093688d8-502f-4f48-bda6-654939f5f6b9 1 
+Jan 18 23:36:37.591 HYPERVISOR: exec_cmd: nio create_udp udp-073e5a8a-d7b3-4911-81dd-8649108f271e 10061 192.168.1.72 10060 
+Jan 18 23:36:37.592 HYPERVISOR: exec_cmd: ethsw add_nio Research udp-073e5a8a-d7b3-4911-81dd-8649108f271e 
+Jan 18 23:36:37.613 HYPERVISOR: exec_cmd: ethsw set_access_port Research udp-073e5a8a-d7b3-4911-81dd-8649108f271e 1 

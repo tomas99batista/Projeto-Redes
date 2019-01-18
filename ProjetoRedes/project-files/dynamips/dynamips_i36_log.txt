@@ -5,3 +5,15 @@ Jan 18 23:05:07.579 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tomas\
 Jan 18 23:05:07.579 GENERAL: working_dir=C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips
 Jan 18 23:05:07.580 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-4 
 Jan 18 23:10:46.008 HYPERVISOR: exec_cmd: ethsw rename Ethernetswitch-4 Engineering 
+Jan 18 23:33:53.597 HYPERVISOR: exec_cmd: nio create_udp udp-2476cb8b-e4c2-48d6-9c23-b477aec0691e 10041 192.168.1.72 10040 
+Jan 18 23:33:53.598 HYPERVISOR: exec_cmd: ethsw add_nio Engineering udp-2476cb8b-e4c2-48d6-9c23-b477aec0691e 
+Jan 18 23:33:53.610 HYPERVISOR: exec_cmd: ethsw set_access_port Engineering udp-2476cb8b-e4c2-48d6-9c23-b477aec0691e 1 
+Jan 18 23:34:46.668 HYPERVISOR: exec_cmd: nio create_udp udp-5d2fe75b-e0ec-4cbd-a4e2-6771985b4fc1 10049 192.168.1.72 10048 
+Jan 18 23:34:46.668 HYPERVISOR: exec_cmd: ethsw add_nio Engineering udp-5d2fe75b-e0ec-4cbd-a4e2-6771985b4fc1 
+Jan 18 23:34:46.680 HYPERVISOR: exec_cmd: ethsw set_access_port Engineering udp-5d2fe75b-e0ec-4cbd-a4e2-6771985b4fc1 1 
+Jan 18 23:36:30.060 HYPERVISOR: exec_cmd: nio create_udp udp-d3f146a4-b75b-4b2a-a43b-81e39fa611bc 10057 192.168.1.72 10056 
+Jan 18 23:36:30.061 HYPERVISOR: exec_cmd: ethsw add_nio Engineering udp-d3f146a4-b75b-4b2a-a43b-81e39fa611bc 
+Jan 18 23:36:30.082 HYPERVISOR: exec_cmd: ethsw set_access_port Engineering udp-d3f146a4-b75b-4b2a-a43b-81e39fa611bc 1 
+Jan 18 23:36:33.940 HYPERVISOR: exec_cmd: nio create_udp udp-f6e73f2d-470a-40c9-8212-360212421598 10059 192.168.1.72 10058 
+Jan 18 23:36:33.940 HYPERVISOR: exec_cmd: ethsw add_nio Engineering udp-f6e73f2d-470a-40c9-8212-360212421598 
+Jan 18 23:36:33.961 HYPERVISOR: exec_cmd: ethsw set_access_port Engineering udp-f6e73f2d-470a-40c9-8212-360212421598 1 
