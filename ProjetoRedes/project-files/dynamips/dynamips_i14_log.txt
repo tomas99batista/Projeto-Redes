@@ -1,0 +1,6 @@
+Jan 18 16:59:53.595 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Jan 18 16:59:53.595 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 40525.
+Jan 18 16:59:53.606 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 18 16:59:53.606 HYPERVISOR: exec_cmd: hypervisor working_dir /home/joao/Desktop/Projeto-Redes-/ProjetoRedes/project-files/dynamips 
+Jan 18 16:59:53.606 GENERAL: working_dir=/home/joao/Desktop/Projeto-Redes-/ProjetoRedes/project-files/dynamips
+Jan 18 16:59:53.606 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-3 
