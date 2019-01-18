@@ -1,0 +1,42 @@
+Jan 18 23:05:11.833 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 18 23:05:11.834 HYPERVISOR: Started on IP = 192.168.1.72, TCP port = 60848.
+Jan 18 23:05:12.304 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 18 23:05:12.304 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips 
+Jan 18 23:05:12.305 GENERAL: working_dir=C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips
+Jan 18 23:05:12.305 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips\8f5bdd6b-3d10-47a6-8549-ad73c81ce623 
+Jan 18 23:05:12.306 GENERAL: working_dir=C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips\8f5bdd6b-3d10-47a6-8549-ad73c81ce623
+Jan 18 23:05:12.306 HYPERVISOR: exec_cmd: vm create R4 6 c7200 
+Jan 18 23:05:12.308 VM: VM R4 created.
+Jan 18 23:05:12.309 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5035 
+Jan 18 23:05:12.309 HYPERVISOR: exec_cmd: c7200 get_mac_addr R4 
+Jan 18 23:05:12.309 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 18 23:05:12.310 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-FE 
+Jan 18 23:05:12.310 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Jan 18 23:05:12.310 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Jan 18 23:05:12.311 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/tomas/GNS3/images/IOS/c7200-jk9o3s-mz.123-8.T.bin 
+Jan 18 23:05:12.312 HYPERVISOR: exec_cmd: c7200 set_mac_addr R4 ca06.1bf4.0000 
+Jan 18 23:05:12.312 HYPERVISOR: exec_cmd: vm set_nvram R4 512 
+Jan 18 23:05:12.312 HYPERVISOR: exec_cmd: vm set_ram R4 512 
+Jan 18 23:05:12.313 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 18 23:05:12.313 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 PA-A1 
+Jan 18 23:05:12.314 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 18 23:05:12.314 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 PA-FE-TX 
+Jan 18 23:05:12.314 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 18 23:05:12.314 HYPERVISOR: exec_cmd: vm slot_add_binding R4 3 0 PA-2FE-TX 
+Jan 18 23:05:12.315 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 18 23:05:12.315 HYPERVISOR: exec_cmd: vm slot_add_binding R4 4 0 PA-GE 
+Jan 18 23:05:12.315 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 18 23:05:12.315 HYPERVISOR: exec_cmd: vm slot_add_binding R4 5 0 PA-4T+ 
+Jan 18 23:05:12.316 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 18 23:05:12.316 HYPERVISOR: exec_cmd: vm slot_add_binding R4 6 0 PA-8T 
+Jan 18 23:08:00.441 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/tomas/GNS3/images/IOS/c7200-jk9o3s-mz.123-8.T.bin 
+Jan 18 23:21:04.623 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/tomas/GNS3/images/IOS/c7200-jk9o3s-mz.123-8.T.bin 
+Jan 18 23:21:07.610 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/tomas/GNS3/images/IOS/c7200-jk9o3s-mz.123-8.T.bin 
+Jan 18 23:21:07.618 HYPERVISOR: exec_cmd: vm rename R4 R3 
+Jan 18 23:21:07.685 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/tomas/GNS3/images/IOS/c7200-jk9o3s-mz.123-8.T.bin 
+Jan 18 23:21:07.744 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/tomas/GNS3/images/IOS/c7200-jk9o3s-mz.123-8.T.bin 
+Jan 18 23:21:07.827 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/tomas/GNS3/images/IOS/c7200-jk9o3s-mz.123-8.T.bin 
+Jan 18 23:21:07.891 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/tomas/GNS3/images/IOS/c7200-jk9o3s-mz.123-8.T.bin 
+Jan 18 23:21:07.952 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/tomas/GNS3/images/IOS/c7200-jk9o3s-mz.123-8.T.bin 
+Jan 18 23:21:08.013 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/tomas/GNS3/images/IOS/c7200-jk9o3s-mz.123-8.T.bin 
+Jan 18 23:21:43.569 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/tomas/GNS3/images/IOS/c7200-jk9o3s-mz.123-8.T.bin 

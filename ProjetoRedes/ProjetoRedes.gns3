@@ -2,7 +2,7 @@
     "auto_close": true,
     "auto_open": false,
     "auto_start": false,
-    "grid_size": 0,
+    "grid_size": 75,
     "name": "ProjetoRedes",
     "project_id": "5cb9d242-8564-4e6e-a7ff-3c8eab3607d7",
     "revision": 8,
@@ -15,7 +15,136 @@
     "supplier": null,
     "topology": {
         "computes": [],
-        "drawings": [],
+        "drawings": [
+            {
+                "drawing_id": "41ad47bb-181b-4070-8471-f332f3a9624e",
+                "rotation": 0,
+                "svg": "<svg height=\"203\" width=\"372\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"203\" stroke=\"#000000\" stroke-width=\"2\" width=\"372\" /></svg>",
+                "x": -110,
+                "y": -104,
+                "z": -1
+            },
+            {
+                "drawing_id": "038df9b1-e718-40cb-abfa-0b97c64ccfe7",
+                "rotation": 0,
+                "svg": "<svg height=\"24\" width=\"139\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Internal DataCenter</text></svg>",
+                "x": 10,
+                "y": 51,
+                "z": 1
+            },
+            {
+                "drawing_id": "60a2e8d4-3c62-492a-9895-50b307789fe8",
+                "rotation": 0,
+                "svg": "<svg height=\"235\" width=\"359\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"235\" stroke=\"#000000\" stroke-width=\"2\" width=\"359\" /></svg>",
+                "x": -438,
+                "y": -460,
+                "z": -1
+            },
+            {
+                "drawing_id": "8ffe1408-f4d6-406f-8ec8-fa64b6aea330",
+                "rotation": 0,
+                "svg": "<svg height=\"24\" width=\"35\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">DMZ</text></svg>",
+                "x": -127,
+                "y": -444,
+                "z": 1
+            },
+            {
+                "drawing_id": "e1f5725d-0629-4f90-84c0-e82f02b57e63",
+                "rotation": 0,
+                "svg": "<svg height=\"110\" width=\"216\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"110\" stroke=\"#000000\" stroke-width=\"2\" width=\"216\" /></svg>",
+                "x": 480,
+                "y": -454,
+                "z": -1
+            },
+            {
+                "drawing_id": "e1f0ef42-37fb-458e-b6e0-b979b353f7d9",
+                "rotation": 0,
+                "svg": "<svg height=\"24\" width=\"63\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Internet</text></svg>",
+                "x": 614,
+                "y": -450,
+                "z": 1
+            },
+            {
+                "drawing_id": "349c588f-9bdf-4ebd-aa73-80cccd84935d",
+                "rotation": 0,
+                "svg": "<svg height=\"363\" width=\"420\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"363\" stroke=\"#000000\" stroke-width=\"2\" width=\"420\" /></svg>",
+                "x": -900,
+                "y": -219,
+                "z": -1
+            },
+            {
+                "drawing_id": "a2161e1a-5c2b-4025-a3cc-13288550edc0",
+                "rotation": 0,
+                "svg": "<svg height=\"24\" width=\"81\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Old Building</text></svg>",
+                "x": -562,
+                "y": -214,
+                "z": 1
+            },
+            {
+                "drawing_id": "ac06d699-9920-4e22-9764-83d1bdf7c9d8",
+                "rotation": 0,
+                "svg": "<svg height=\"192\" width=\"223\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"192\" stroke=\"#000000\" stroke-width=\"2\" width=\"223\" /></svg>",
+                "x": -493,
+                "y": 231,
+                "z": -1
+            },
+            {
+                "drawing_id": "2d0491e4-9a81-4131-97f2-c8abf58dd6df",
+                "rotation": 0,
+                "svg": "<svg height=\"24\" width=\"121\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Engineering VLAN</text></svg>",
+                "x": -438,
+                "y": 398,
+                "z": 1
+            },
+            {
+                "drawing_id": "e17eab0c-bbc2-44a3-af00-37394ee4f510",
+                "rotation": 0,
+                "svg": "<svg height=\"191\" width=\"200\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"191\" stroke=\"#000000\" stroke-width=\"2\" width=\"200\" /></svg>",
+                "x": -182,
+                "y": 233,
+                "z": -1
+            },
+            {
+                "drawing_id": "5875334d-629a-4327-9179-2f397220023b",
+                "rotation": 0,
+                "svg": "<svg height=\"24\" width=\"107\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Research VLAN</text></svg>",
+                "x": -131,
+                "y": 404,
+                "z": 1
+            },
+            {
+                "drawing_id": "f62c4fe6-619c-4ac7-af90-8fde4fed7939",
+                "rotation": 0,
+                "svg": "<svg height=\"193\" width=\"150\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"193\" stroke=\"#000000\" stroke-width=\"2\" width=\"150\" /></svg>",
+                "x": 91,
+                "y": 235,
+                "z": -1
+            },
+            {
+                "drawing_id": "eb408cdc-0399-4b6c-a0ed-171f11dc3cba",
+                "rotation": 0,
+                "svg": "<svg height=\"24\" width=\"80\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VoIP  VLAN</text></svg>",
+                "x": 128,
+                "y": 407,
+                "z": 1
+            },
+            {
+                "drawing_id": "024b57b3-55f0-4ac5-b647-a0ad20c6c062",
+                "rotation": 0,
+                "svg": "<svg height=\"194\" width=\"200\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"194\" stroke=\"#000000\" stroke-width=\"2\" width=\"200\" /></svg>",
+                "x": 313,
+                "y": 233,
+                "z": -1
+            },
+            {
+                "drawing_id": "11d327ee-4b91-4aa0-8793-698bbbc181ca",
+                "rotation": 0,
+                "svg": "<svg height=\"40\" width=\"156\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VideoConference VLAN\n</text></svg>",
+                "x": 332,
+                "y": 402,
+                "z": 1
+            }
+        ],
         "links": [],
         "nodes": [
             {
@@ -27,11 +156,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC-1",
-                    "x": 11,
+                    "text": "Public-Eng",
+                    "x": -4,
                     "y": -25
                 },
-                "name": "PC-1",
+                "name": "Public-Eng",
                 "node_id": "32797f6d-aa72-4a22-89f8-166e6f76456c",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -39,8 +168,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": -464,
-                "y": 268,
+                "x": -479,
+                "y": 328,
                 "z": 0
             },
             {
@@ -52,11 +181,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC-2",
-                    "x": 11,
+                    "text": "Private-Eng",
+                    "x": -9,
                     "y": -25
                 },
-                "name": "PC-2",
+                "name": "Private-Eng",
                 "node_id": "8d3d74c9-678d-4426-8a9f-9b8225582603",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -64,8 +193,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": -367,
-                "y": 269,
+                "x": -344,
+                "y": 325,
                 "z": 0
             },
             {
@@ -77,11 +206,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC-3",
-                    "x": 11,
+                    "text": "Private-Research",
+                    "x": -28,
                     "y": -25
                 },
-                "name": "PC-3",
+                "name": "Private-Research",
                 "node_id": "08293fc0-57ea-43fb-b347-1262275aab52",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -89,8 +218,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": -176,
-                "y": 268,
+                "x": -116,
+                "y": 331,
                 "z": 0
             },
             {
@@ -103,8 +232,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "PC-4",
-                    "x": 11,
-                    "y": -25
+                    "x": 12,
+                    "y": -27
                 },
                 "name": "PC-4",
                 "node_id": "309a03a7-133d-478f-abdf-71a10a6836e9",
@@ -114,8 +243,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": 33,
-                "y": 272,
+                "x": 134,
+                "y": 335,
                 "z": 0
             },
             {
@@ -127,11 +256,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC-5",
-                    "x": 11,
+                    "text": "Pub-VidConf",
+                    "x": -11,
                     "y": -25
                 },
-                "name": "PC-5",
+                "name": "Pub-VidConf",
                 "node_id": "e20eda83-170f-40cd-97bc-01081cafad8c",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -139,8 +268,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": 234,
-                "y": 270,
+                "x": 327,
+                "y": 329,
                 "z": 0
             },
             {
@@ -152,11 +281,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC-6",
-                    "x": 11,
+                    "text": "Priv-VidConf",
+                    "x": -11,
                     "y": -25
                 },
-                "name": "PC-6",
+                "name": "Priv-VidConf",
                 "node_id": "815205bf-45ed-43ad-9fd6-16719a06371a",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -164,8 +293,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": 333,
-                "y": 271,
+                "x": 432,
+                "y": 328,
                 "z": 0
             },
             {
@@ -177,11 +306,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC-7",
-                    "x": 11,
-                    "y": -25
+                    "text": "Public-DataCenter",
+                    "x": -7,
+                    "y": -22
                 },
-                "name": "PC-7",
+                "name": "Public-DataCenter",
                 "node_id": "63cb2057-3086-497c-a12a-39c15b751aa6",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -189,8 +318,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": -130,
-                "y": -51,
+                "x": -76,
+                "y": 18,
                 "z": 0
             },
             {
@@ -202,11 +331,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC-8",
-                    "x": 11,
+                    "text": "Priv-DataCenter",
+                    "x": -40,
                     "y": -25
                 },
-                "name": "PC-8",
+                "name": "Priv-DataCenter",
                 "node_id": "c9b08a06-f80b-4c12-9f54-bb6ce13a60ae",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -214,8 +343,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": 72,
-                "y": -47,
+                "x": 151,
+                "y": 17,
                 "z": 0
             },
             {
@@ -227,11 +356,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "ESW1",
-                    "x": 1,
-                    "y": -29
+                    "text": "A",
+                    "x": 16,
+                    "y": -25
                 },
-                "name": "ESW1",
+                "name": "A",
                 "node_id": "8277a748-6ce2-46b6-952c-598b8353573c",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -266,8 +395,8 @@
                 },
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "width": 51,
-                "x": -318,
-                "y": -44,
+                "x": -293,
+                "y": -66,
                 "z": 0
             },
             {
@@ -279,11 +408,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "ESW2",
-                    "x": 0,
+                    "text": "B",
+                    "x": 17,
                     "y": -25
                 },
-                "name": "ESW2",
+                "name": "B",
                 "node_id": "2855f27b-09cd-4994-af92-66baf740d99d",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -318,8 +447,8 @@
                 },
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "width": 51,
-                "x": 281,
-                "y": -38,
+                "x": 361,
+                "y": -44,
                 "z": 0
             },
             {
@@ -331,11 +460,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Ethernetswitch-1",
-                    "x": -31,
+                    "text": "InternalDataCenter",
+                    "x": -32,
                     "y": -25
                 },
-                "name": "Ethernetswitch-1",
+                "name": "InternalDataCenter",
                 "node_id": "d3f79ab7-7492-442a-901c-0b30c9236cf4",
                 "node_type": "ethernet_switch",
                 "port_name_format": "Ethernet{0}",
@@ -394,8 +523,8 @@
                 },
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "width": 72,
-                "x": -24,
-                "y": -89,
+                "x": 56,
+                "y": -73,
                 "z": 0
             },
             {
@@ -407,11 +536,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Ethernetswitch-2",
-                    "x": -31,
+                    "text": "SW1",
+                    "x": 17,
                     "y": -25
                 },
-                "name": "Ethernetswitch-2",
+                "name": "SW1",
                 "node_id": "edae5c7f-c094-4c4a-a585-a4b55e448931",
                 "node_type": "ethernet_switch",
                 "port_name_format": "Ethernet{0}",
@@ -470,8 +599,8 @@
                 },
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "width": 72,
-                "x": -237,
-                "y": 78,
+                "x": -222,
+                "y": 154,
                 "z": 0
             },
             {
@@ -483,11 +612,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Ethernetswitch-3",
-                    "x": -31,
+                    "text": "SW2",
+                    "x": 17,
                     "y": -25
                 },
-                "name": "Ethernetswitch-3",
+                "name": "SW2",
                 "node_id": "80bf42c0-88b9-47ff-83c5-48f172b713d9",
                 "node_type": "ethernet_switch",
                 "port_name_format": "Ethernet{0}",
@@ -546,8 +675,8 @@
                 },
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "width": 72,
-                "x": 164,
-                "y": 89,
+                "x": 261,
+                "y": 154,
                 "z": 0
             },
             {
@@ -559,11 +688,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Ethernetswitch-4",
-                    "x": -31,
+                    "text": "Engineering",
+                    "x": -6,
                     "y": -25
                 },
-                "name": "Ethernetswitch-4",
+                "name": "Engineering",
                 "node_id": "76a4440f-bd7e-4f64-b3eb-ee074e47aefe",
                 "node_type": "ethernet_switch",
                 "port_name_format": "Ethernet{0}",
@@ -622,8 +751,8 @@
                 },
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "width": 72,
-                "x": -422,
-                "y": 199,
+                "x": -423,
+                "y": 263,
                 "z": 0
             },
             {
@@ -635,11 +764,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Ethernetswitch-5",
-                    "x": -31,
+                    "text": "Research",
+                    "x": 1,
                     "y": -25
                 },
-                "name": "Ethernetswitch-5",
+                "name": "Research",
                 "node_id": "e7dc7939-4a01-4513-97f7-9a0e5a3870e9",
                 "node_type": "ethernet_switch",
                 "port_name_format": "Ethernet{0}",
@@ -698,8 +827,8 @@
                 },
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "width": 72,
-                "x": -132,
-                "y": 202,
+                "x": -111,
+                "y": 262,
                 "z": 0
             },
             {
@@ -711,11 +840,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Ethernetswitch-6",
-                    "x": -31,
+                    "text": "VoIP",
+                    "x": 16,
                     "y": -25
                 },
-                "name": "Ethernetswitch-6",
+                "name": "VoIP",
                 "node_id": "509967b3-7dd4-418b-bde1-dc6710692eac",
                 "node_type": "ethernet_switch",
                 "port_name_format": "Ethernet{0}",
@@ -774,8 +903,8 @@
                 },
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "width": 72,
-                "x": 120,
-                "y": 210,
+                "x": 131,
+                "y": 268,
                 "z": 0
             },
             {
@@ -787,11 +916,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Ethernetswitch-7",
-                    "x": -31,
+                    "text": "VideoConference",
+                    "x": -23,
                     "y": -25
                 },
-                "name": "Ethernetswitch-7",
+                "name": "VideoConference",
                 "node_id": "6cc0e7fd-c514-4697-b3eb-a5b4485e90ae",
                 "node_type": "ethernet_switch",
                 "port_name_format": "Ethernet{0}",
@@ -850,8 +979,8 @@
                 },
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "width": 72,
-                "x": 294,
-                "y": 210,
+                "x": 375,
+                "y": 267,
                 "z": 0
             },
             {
@@ -864,8 +993,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "R1",
-                    "x": 19,
-                    "y": -25
+                    "x": 85,
+                    "y": 1
                 },
                 "name": "R1",
                 "node_id": "5931e2d6-1b5e-4039-8c94-fab638c4322b",
@@ -914,8 +1043,8 @@
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": -17,
-                "y": -222,
+                "x": 126,
+                "y": -246,
                 "z": 0
             },
             {
@@ -927,11 +1056,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "R2",
-                    "x": 19,
+                    "text": "ISP",
+                    "x": 18,
                     "y": -25
                 },
-                "name": "R2",
+                "name": "ISP",
                 "node_id": "43ae8922-6066-41ce-bc9c-cd4263aae644",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -978,8 +1107,8 @@
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": -19,
-                "y": -416,
+                "x": 207,
+                "y": -423,
                 "z": 0
             },
             {
@@ -1003,8 +1132,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": 202,
-                "y": -420,
+                "x": 503,
+                "y": -417,
                 "z": 0
             },
             {
@@ -1016,11 +1145,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Ethernetswitch-8",
-                    "x": -31,
+                    "text": "DMZ",
+                    "x": 18,
                     "y": -25
                 },
-                "name": "Ethernetswitch-8",
+                "name": "DMZ",
                 "node_id": "32f62841-4952-4ceb-b226-ed25a3ecfd7d",
                 "node_type": "ethernet_switch",
                 "port_name_format": "Ethernet{0}",
@@ -1079,8 +1208,8 @@
                 },
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "width": 72,
-                "x": -226,
-                "y": -216,
+                "x": -256,
+                "y": -350,
                 "z": 0
             },
             {
@@ -1092,11 +1221,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC-10",
-                    "x": 7,
+                    "text": "Public-DMZ",
+                    "x": -6,
                     "y": -25
                 },
-                "name": "PC-10",
+                "name": "Public-DMZ",
                 "node_id": "ea870270-18b1-40bc-9da8-8edd8098b6f6",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -1104,8 +1233,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": -397,
-                "y": -315,
+                "x": -410,
+                "y": -425,
                 "z": 0
             },
             {
@@ -1117,11 +1246,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC-11",
-                    "x": 7,
+                    "text": "Private-DMZ",
+                    "x": -11,
                     "y": -25
                 },
-                "name": "PC-11",
+                "name": "Private-DMZ",
                 "node_id": "f65c1cca-9c37-4570-8f1c-f56b7abb8e1a",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -1129,8 +1258,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": -395,
-                "y": -193,
+                "x": -409,
+                "y": -292,
                 "z": 0
             },
             {
@@ -1142,11 +1271,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "R3",
-                    "x": 19,
+                    "text": "R2",
+                    "x": 20,
                     "y": -25
                 },
-                "name": "R3",
+                "name": "R2",
                 "node_id": "37069ac7-a83e-4b5e-8225-cd289c973709",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -1193,8 +1322,8 @@
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": -493,
-                "y": -38,
+                "x": -556,
+                "y": -58,
                 "z": 0
             },
             {
@@ -1206,11 +1335,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "R4",
-                    "x": 19,
+                    "text": "R3",
+                    "x": 20,
                     "y": -25
                 },
-                "name": "R4",
+                "name": "R3",
                 "node_id": "8f5bdd6b-3d10-47a6-8549-ad73c81ce623",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -1257,8 +1386,8 @@
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": -662,
-                "y": -39,
+                "x": -654,
+                "y": -61,
                 "z": 0
             },
             {
@@ -1270,11 +1399,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Ethernetswitch-9",
-                    "x": -31,
+                    "text": "OLD",
+                    "x": 19,
                     "y": -25
                 },
-                "name": "Ethernetswitch-9",
+                "name": "OLD",
                 "node_id": "c885d67c-d04a-4324-9ed8-803ebf9ca1f3",
                 "node_type": "ethernet_switch",
                 "port_name_format": "Ethernet{0}",
@@ -1333,8 +1462,8 @@
                 },
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "width": 72,
-                "x": -834,
-                "y": -31,
+                "x": -803,
+                "y": -51,
                 "z": 0
             },
             {
@@ -1346,11 +1475,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC-12",
-                    "x": 7,
+                    "text": "Public-OLD",
+                    "x": -5,
                     "y": -25
                 },
-                "name": "PC-12",
+                "name": "Public-OLD",
                 "node_id": "92b4c36c-1cdd-40b1-80c8-e846e5745024",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -1358,8 +1487,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": -868,
-                "y": -188,
+                "x": -890,
+                "y": -193,
                 "z": 0
             },
             {
@@ -1371,11 +1500,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC-13",
-                    "x": 7,
+                    "text": "Private-OLD",
+                    "x": -10,
                     "y": -25
                 },
-                "name": "PC-13",
+                "name": "Private-OLD",
                 "node_id": "9ea3e2bb-11f5-4e37-bca0-9262d0e21363",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -1383,7 +1512,7 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": -893,
+                "x": -887,
                 "y": 78,
                 "z": 0
             }
@@ -1392,5 +1521,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.1.11",
-    "zoom": 100
+    "zoom": 71
 }

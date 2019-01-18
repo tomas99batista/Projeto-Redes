@@ -1,0 +1,22 @@
+Jan 18 23:05:10.620 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 18 23:05:10.621 HYPERVISOR: Started on IP = 192.168.1.72, TCP port = 60838.
+Jan 18 23:05:11.087 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 18 23:05:11.087 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips 
+Jan 18 23:05:11.087 GENERAL: working_dir=C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips
+Jan 18 23:05:11.087 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-8 
+Jan 18 23:12:46.366 HYPERVISOR: exec_cmd: ethsw rename Ethernetswitch-8 DMZ 
+Jan 18 23:13:11.738 HYPERVISOR: exec_cmd: nio create_udp udp-b57de1df-823e-42c2-9bef-c8b54f270c6b 10001 192.168.1.72 10000 
+Jan 18 23:13:11.738 HYPERVISOR: exec_cmd: ethsw add_nio DMZ udp-b57de1df-823e-42c2-9bef-c8b54f270c6b 
+Jan 18 23:13:11.755 HYPERVISOR: exec_cmd: ethsw set_access_port DMZ udp-b57de1df-823e-42c2-9bef-c8b54f270c6b 1 
+Jan 18 23:13:15.441 HYPERVISOR: exec_cmd: nio create_udp udp-6d0dcfc4-474d-4f01-ad00-cf37bf5bee8b 10003 192.168.1.72 10002 
+Jan 18 23:13:15.441 HYPERVISOR: exec_cmd: ethsw add_nio DMZ udp-6d0dcfc4-474d-4f01-ad00-cf37bf5bee8b 
+Jan 18 23:13:15.457 HYPERVISOR: exec_cmd: ethsw set_access_port DMZ udp-6d0dcfc4-474d-4f01-ad00-cf37bf5bee8b 1 
+Jan 18 23:13:23.600 HYPERVISOR: exec_cmd: nio create_udp udp-324a87a5-c89b-4f08-96a1-daf4723ada61 10004 192.168.1.72 10005 
+Jan 18 23:13:23.600 HYPERVISOR: exec_cmd: ethsw add_nio DMZ udp-324a87a5-c89b-4f08-96a1-daf4723ada61 
+Jan 18 23:13:23.607 HYPERVISOR: exec_cmd: ethsw set_access_port DMZ udp-324a87a5-c89b-4f08-96a1-daf4723ada61 1 
+Jan 18 23:13:29.492 HYPERVISOR: exec_cmd: ethsw remove_nio DMZ udp-324a87a5-c89b-4f08-96a1-daf4723ada61 
+Jan 18 23:13:29.505 HYPERVISOR: exec_cmd: nio delete udp-324a87a5-c89b-4f08-96a1-daf4723ada61 
+Jan 18 23:13:30.776 HYPERVISOR: exec_cmd: ethsw remove_nio DMZ udp-6d0dcfc4-474d-4f01-ad00-cf37bf5bee8b 
+Jan 18 23:13:30.779 HYPERVISOR: exec_cmd: nio delete udp-6d0dcfc4-474d-4f01-ad00-cf37bf5bee8b 
+Jan 18 23:13:32.028 HYPERVISOR: exec_cmd: ethsw remove_nio DMZ udp-b57de1df-823e-42c2-9bef-c8b54f270c6b 
+Jan 18 23:13:32.033 HYPERVISOR: exec_cmd: nio delete udp-b57de1df-823e-42c2-9bef-c8b54f270c6b 

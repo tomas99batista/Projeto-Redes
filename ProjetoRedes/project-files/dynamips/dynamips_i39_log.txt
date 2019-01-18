@@ -1,0 +1,7 @@
+Jan 18 23:05:08.832 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 18 23:05:08.833 HYPERVISOR: Started on IP = 192.168.1.72, TCP port = 60822.
+Jan 18 23:05:09.326 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 18 23:05:09.327 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips 
+Jan 18 23:05:09.327 GENERAL: working_dir=C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips
+Jan 18 23:05:09.327 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-7 
+Jan 18 23:14:54.647 HYPERVISOR: exec_cmd: ethsw rename Ethernetswitch-7 VideoConference 
