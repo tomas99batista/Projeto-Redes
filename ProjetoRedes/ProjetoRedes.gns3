@@ -175,6 +175,14 @@
                 "x": 335,
                 "y": 463,
                 "z": 1
+            },
+            {
+                "drawing_id": "ee40bc64-2e59-4923-aca7-88b7a3a10dcf",
+                "rotation": 0,
+                "svg": "<svg height=\"24\" width=\"98\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">no switchport</text></svg>",
+                "x": -186,
+                "y": -63,
+                "z": 1
             }
         ],
         "links": [
@@ -1130,8 +1138,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e4",
-                            "x": -1,
-                            "y": 1
+                            "x": -10,
+                            "y": -24
                         },
                         "node_id": "80bf42c0-88b9-47ff-83c5-48f172b713d9",
                         "port_number": 4
@@ -1192,8 +1200,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e5",
-                            "x": 52,
-                            "y": -20
+                            "x": 63,
+                            "y": -33
                         },
                         "node_id": "80bf42c0-88b9-47ff-83c5-48f172b713d9",
                         "port_number": 5
@@ -1242,8 +1250,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f1/2",
-                            "x": 96,
-                            "y": 3
+                            "x": 71,
+                            "y": 4
                         },
                         "node_id": "8277a748-6ce2-46b6-952c-598b8353573c",
                         "port_number": 2
