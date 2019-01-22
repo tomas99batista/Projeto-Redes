@@ -1,0 +1,21 @@
+Jan 22 23:09:55.769 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 22 23:09:55.771 HYPERVISOR: Started on IP = 192.168.1.72, TCP port = 63815.
+Jan 22 23:09:56.243 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 22 23:09:56.244 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips 
+Jan 22 23:09:56.244 GENERAL: working_dir=C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips
+Jan 22 23:09:56.245 HYPERVISOR: exec_cmd: ethsw create InternalDataCenter 
+Jan 22 23:10:05.230 HYPERVISOR: exec_cmd: nio create_udp udp-246b8a3f-742b-40eb-9567-36e568509358 10019 192.168.1.72 10018 
+Jan 22 23:10:05.231 HYPERVISOR: exec_cmd: ethsw add_nio InternalDataCenter udp-246b8a3f-742b-40eb-9567-36e568509358 
+Jan 22 23:10:05.238 HYPERVISOR: exec_cmd: ethsw set_access_port InternalDataCenter udp-246b8a3f-742b-40eb-9567-36e568509358 1 
+Jan 22 23:10:05.306 HYPERVISOR: exec_cmd: nio create_udp udp-1049a84f-0996-4c00-b736-3cd92dfa560d 10023 192.168.1.72 10022 
+Jan 22 23:10:05.307 HYPERVISOR: exec_cmd: ethsw add_nio InternalDataCenter udp-1049a84f-0996-4c00-b736-3cd92dfa560d 
+Jan 22 23:10:05.320 HYPERVISOR: exec_cmd: ethsw set_access_port InternalDataCenter udp-1049a84f-0996-4c00-b736-3cd92dfa560d 1 
+Jan 22 23:10:05.426 HYPERVISOR: exec_cmd: nio create_udp udp-aa83cb58-4ffb-4ff3-a08d-a7d5d6f43a9e 10025 192.168.1.72 10024 
+Jan 22 23:10:05.427 HYPERVISOR: exec_cmd: ethsw add_nio InternalDataCenter udp-aa83cb58-4ffb-4ff3-a08d-a7d5d6f43a9e 
+Jan 22 23:10:05.446 HYPERVISOR: exec_cmd: ethsw set_access_port InternalDataCenter udp-aa83cb58-4ffb-4ff3-a08d-a7d5d6f43a9e 1 
+Jan 22 23:10:11.029 HYPERVISOR: exec_cmd: nio create_udp udp-81d98e4f-e9e9-4525-88e0-4b6e13194f0b 10103 192.168.1.72 10102 
+Jan 22 23:10:11.029 HYPERVISOR: exec_cmd: ethsw add_nio InternalDataCenter udp-81d98e4f-e9e9-4525-88e0-4b6e13194f0b 
+Jan 22 23:10:11.031 HYPERVISOR: exec_cmd: ethsw set_access_port InternalDataCenter udp-81d98e4f-e9e9-4525-88e0-4b6e13194f0b 1 
+Jan 22 23:10:11.109 HYPERVISOR: exec_cmd: nio create_udp udp-a51eb9c7-80d2-4d13-9e23-fe2f537d1b02 10107 192.168.1.72 10106 
+Jan 22 23:10:11.109 HYPERVISOR: exec_cmd: ethsw add_nio InternalDataCenter udp-a51eb9c7-80d2-4d13-9e23-fe2f537d1b02 
+Jan 22 23:10:11.113 HYPERVISOR: exec_cmd: ethsw set_access_port InternalDataCenter udp-a51eb9c7-80d2-4d13-9e23-fe2f537d1b02 1 

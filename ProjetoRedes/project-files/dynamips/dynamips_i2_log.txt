@@ -1,0 +1,34 @@
+Jan 22 23:09:55.209 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 22 23:09:55.211 HYPERVISOR: Started on IP = 192.168.1.72, TCP port = 63812.
+Jan 22 23:09:55.671 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 22 23:09:55.672 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips 
+Jan 22 23:09:55.672 GENERAL: working_dir=C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips
+Jan 22 23:09:55.673 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips\2855f27b-09cd-4994-af92-66baf740d99d 
+Jan 22 23:09:55.674 GENERAL: working_dir=C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips\2855f27b-09cd-4994-af92-66baf740d99d
+Jan 22 23:09:55.675 HYPERVISOR: exec_cmd: vm create B 2 c3725 
+Jan 22 23:09:55.679 VM: VM B created.
+Jan 22 23:09:55.680 HYPERVISOR: exec_cmd: vm set_con_tcp_port B 5017 
+Jan 22 23:09:55.681 HYPERVISOR: exec_cmd: c3725 get_mac_addr B 
+Jan 22 23:09:55.681 HYPERVISOR: exec_cmd: vm set_disk0 B 1 
+Jan 22 23:09:55.682 HYPERVISOR: exec_cmd: vm set_exec_area B 64 
+Jan 22 23:09:55.685 HYPERVISOR: exec_cmd: vm set_ios B C:/Users/tomas/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jan 22 23:09:55.686 HYPERVISOR: exec_cmd: c3725 set_mac_addr B c202.1b20.0000 
+Jan 22 23:09:55.687 HYPERVISOR: exec_cmd: vm set_nvram B 256 
+Jan 22 23:09:55.688 HYPERVISOR: exec_cmd: vm get_status B 
+Jan 22 23:09:55.688 HYPERVISOR: exec_cmd: vm slot_add_binding B 1 0 NM-16ESW 
+Jan 22 23:09:55.689 HYPERVISOR: exec_cmd: vm get_status B 
+Jan 22 23:09:55.690 HYPERVISOR: exec_cmd: vm slot_add_binding B 2 0 NM-1FE-TX 
+Jan 22 23:09:55.691 HYPERVISOR: exec_cmd: vm slot_add_binding B 0 16 WIC-1T 
+Jan 22 23:09:55.692 HYPERVISOR: exec_cmd: vm slot_add_binding B 0 32 WIC-2T 
+Jan 22 23:10:09.986 HYPERVISOR: exec_cmd: nio create_udp udp-764186c1-3f6d-447c-9850-1a960c9736cc 10082 127.0.0.1 10083 
+Jan 22 23:10:10.532 HYPERVISOR: exec_cmd: vm slot_add_nio_binding B 0 0 udp-764186c1-3f6d-447c-9850-1a960c9736cc 
+Jan 22 23:10:10.533 HYPERVISOR: exec_cmd: vm get_status B 
+Jan 22 23:10:10.832 HYPERVISOR: exec_cmd: nio create_udp udp-8a5b39b9-3e12-4fcd-a2dd-c4f3fdec8a76 10096 127.0.0.1 10097 
+Jan 22 23:10:10.836 HYPERVISOR: exec_cmd: vm slot_add_nio_binding B 1 0 udp-8a5b39b9-3e12-4fcd-a2dd-c4f3fdec8a76 
+Jan 22 23:10:10.836 HYPERVISOR: exec_cmd: vm get_status B 
+Jan 22 23:10:10.914 HYPERVISOR: exec_cmd: nio create_udp udp-29e11bc9-e58c-4b29-8bd0-a2454e8c6b95 10100 127.0.0.1 10101 
+Jan 22 23:10:10.926 HYPERVISOR: exec_cmd: vm slot_add_nio_binding B 1 1 udp-29e11bc9-e58c-4b29-8bd0-a2454e8c6b95 
+Jan 22 23:10:10.927 HYPERVISOR: exec_cmd: vm get_status B 
+Jan 22 23:10:11.017 HYPERVISOR: exec_cmd: nio create_udp udp-74d06270-b589-4808-a634-0ebd2a225bb5 10104 127.0.0.1 10105 
+Jan 22 23:10:11.020 HYPERVISOR: exec_cmd: vm slot_add_nio_binding B 0 1 udp-74d06270-b589-4808-a634-0ebd2a225bb5 
+Jan 22 23:10:11.020 HYPERVISOR: exec_cmd: vm get_status B 

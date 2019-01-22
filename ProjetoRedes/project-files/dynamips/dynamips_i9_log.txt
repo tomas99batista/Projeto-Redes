@@ -1,0 +1,18 @@
+Jan 22 23:09:59.089 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 22 23:09:59.091 HYPERVISOR: Started on IP = 192.168.1.72, TCP port = 63835.
+Jan 22 23:09:59.538 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 22 23:09:59.539 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips 
+Jan 22 23:09:59.539 GENERAL: working_dir=C:\Users\tomas\Desktop\UA\Projeto-Redes-\ProjetoRedes\project-files\dynamips
+Jan 22 23:09:59.540 HYPERVISOR: exec_cmd: ethsw create VideoConference 
+Jan 22 23:10:07.699 HYPERVISOR: exec_cmd: nio create_udp udp-66692edb-abbe-4792-b12c-376369f36fe7 10047 192.168.1.72 10046 
+Jan 22 23:10:07.701 HYPERVISOR: exec_cmd: ethsw add_nio VideoConference udp-66692edb-abbe-4792-b12c-376369f36fe7 
+Jan 22 23:10:07.714 HYPERVISOR: exec_cmd: ethsw set_access_port VideoConference udp-66692edb-abbe-4792-b12c-376369f36fe7 1 
+Jan 22 23:10:08.240 HYPERVISOR: exec_cmd: nio create_udp udp-83162f59-7b00-4a2f-8850-19956e94236c 10055 192.168.1.72 10054 
+Jan 22 23:10:08.241 HYPERVISOR: exec_cmd: ethsw add_nio VideoConference udp-83162f59-7b00-4a2f-8850-19956e94236c 
+Jan 22 23:10:08.255 HYPERVISOR: exec_cmd: ethsw set_access_port VideoConference udp-83162f59-7b00-4a2f-8850-19956e94236c 1 
+Jan 22 23:10:08.994 HYPERVISOR: exec_cmd: nio create_udp udp-86704723-d9e7-44db-b017-7106c94dcf13 10065 192.168.1.72 10064 
+Jan 22 23:10:08.995 HYPERVISOR: exec_cmd: ethsw add_nio VideoConference udp-86704723-d9e7-44db-b017-7106c94dcf13 
+Jan 22 23:10:09.006 HYPERVISOR: exec_cmd: ethsw set_access_port VideoConference udp-86704723-d9e7-44db-b017-7106c94dcf13 1 
+Jan 22 23:10:09.097 HYPERVISOR: exec_cmd: nio create_udp udp-64133ac2-51cc-46c1-a8e0-50d152c652bb 10067 192.168.1.72 10066 
+Jan 22 23:10:09.097 HYPERVISOR: exec_cmd: ethsw add_nio VideoConference udp-64133ac2-51cc-46c1-a8e0-50d152c652bb 
+Jan 22 23:10:09.110 HYPERVISOR: exec_cmd: ethsw set_access_port VideoConference udp-64133ac2-51cc-46c1-a8e0-50d152c652bb 1 
