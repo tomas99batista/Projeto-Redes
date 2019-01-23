@@ -1,9 +1,1 @@
-# This the configuration for Private-OLD
-#
-# Uncomment the following line to enable DHCP
-# dhcp
-# or the line below to manually setup an IP address and subnet mask
-# ip 192.168.1.1 255.0.0.0
-#
-
-set pcname Private-OLD
+ip 2200:a:a:7:1000::3/68

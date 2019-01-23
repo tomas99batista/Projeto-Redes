@@ -1,9 +1,1 @@
-# This the configuration for Pub-VidConf
-#
-# Uncomment the following line to enable DHCP
-# dhcp
-# or the line below to manually setup an IP address and subnet mask
-# ip 192.168.1.1 255.0.0.0
-#
-
-set pcname Pub-VidConf
+ip 194.20.20.129 255.255.255.240 28
